@@ -83,6 +83,7 @@ function callES(server, url, method, data, successCallback, completeCallback) {
         crossDomain: true,
         type: method,
         dataType: "json",
+        contentType: "application/json",
         complete: completeCallback,
         success: successCallback
     });
